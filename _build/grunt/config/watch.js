@@ -20,5 +20,9 @@ module.exports = {
     bower: {
         files: ['./bower.json'],
         tasks: ['wiredep']
+    },
+    es6: {
+        files: ['<%= devPath %>/app/scripts/**/*.es6'],
+        tasks: ['babel', 'injector']
     }
 };

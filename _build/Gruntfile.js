@@ -28,4 +28,5 @@ module.exports = function (grunt)
     });
 
     grunt.registerTask('default', ['projectDefault']);
+    grunt.registerTask('babel-compile', ['babel']);
 };
